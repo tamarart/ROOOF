@@ -1,0 +1,25 @@
+//**
+// Navigation
+//**
+
+nav{
+  a{
+    font-family: $font-primary;
+    color: $black;
+    display: inline-block;
+    text-decoration: none;
+    padding: 0px 5px;
+      &:hover{
+        color: $over-color;
+      }
+      }
+    a.log{
+        color: $primary-color;
+        text-decoration: underline;
+            &:hover{
+            color: $over-color;
+      }
+    }
+  }
+
+

@@ -1,0 +1,48 @@
+// Use Compass
+@import "compass";
+
+// Reset default browser styles using Normalize
+@import "base/normalize";
+
+// Import fonts from Google
+@import url(http://fonts.googleapis.com/css?family=Dosis:400,600,800);
+@import url(http://fonts.googleapis.com/css?family=PT+Serif);
+@import url(http://fonts.googleapis.com/css?family=PT+Sans);
+// Set variables and reusable mixins
+@import "base/config";
+@import "base/mixins";
+
+// Import typical layout styles
+@import "base/grid";
+@import "base/type";
+
+// Import reusable modules
+@import "modules/media";
+@import "modules/buttons";
+@import "modules/tables";
+@import "modules/forms";
+@import "modules/alerts";
+@import "modules/nav";
+@import "modules/other";
+@import "modules/titles";
+
+
+// Use Font Awesome for icons
+@import "base/icons";
+
+// Specific project styles, add any section specific sass modules here
+@import "pages/layout";
+@import "pages/home";
+
+// Additional styles to think about
+@import "base/responsive";
+@import "base/print";
+
+// If IE support is needed
+@import "base/ie";
+
+// For anything quick and dirty that needs thrown in
+@import "base/shame";
+
+// Style-guide
+@import "base/style-guide";

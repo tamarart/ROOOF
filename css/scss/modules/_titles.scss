@@ -1,0 +1,14 @@
+.titulo{
+@extend .text-center;
+margin-bottom: $margin-bottom;
+padding: 0 8%;
+ *{
+    margin: 0;
+ }
+}
+
+@include responsive($small-break) {
+  .titulo {
+    padding: 0;
+  }
+  }

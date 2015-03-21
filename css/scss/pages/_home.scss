@@ -1,0 +1,79 @@
+//**
+// Homepage
+//**
+
+.asistir{
+    background-color: $bg-color;
+        .group{
+            margin:0 auto;
+        }
+        .p-complementary{
+            max-width: 80%;
+            margin: 0 auto;
+            @include responsive($small-break) {
+                max-width: 60%;
+                }
+        }
+}
+
+.icon{
+    margin: 20px 0px 40px 0px;
+    @include responsive($small-break) {
+                margin:25px 0px;
+                }
+}
+.banner{
+        .container{
+            padding: 40px 100px;
+        }
+        .text{
+            h1{
+             @include font-size(40px);
+                color: $white;
+                font-weight: $weight-semi-bold;
+                text-shadow: 2px 2px 1px $primary-color;
+            }
+
+            p{
+                @include font-size(18px);
+                color: $white;
+                text-shadow: 2px 2px 1px $black;
+                padding: 0% 20%;
+
+                @include responsive($small-break) {
+                    @include font-size(16px);
+                    padding: 0;
+                }
+                }
+            }
+        @include responsive($small-break) {
+                .container{
+                            padding: 30px 20px;
+                            }
+
+                h1{ line-height: 1.6rem;
+                    }
+
+            }
+}
+.crea{
+    background: url("../img/hazte_creador.jpg") no-repeat;
+    background-size: cover;
+    margin: 0;
+
+}
+
+
+
+
+// Responsive styles if needed
+// @include responsive($big-break) {
+// }
+// @include responsive($small-break) {
+// }
+
+// Mobile first styles if needed
+// @include mobilefirst($big-break) {
+// }
+// @include mobilefirst($small-break) {
+// }

@@ -1,0 +1,65 @@
+//**
+// Project Settings
+//**
+
+// Consistent settings
+$br: 5px; // Border-radius
+$btn-br: 5px; // Button border-radius
+$padding: 40px; // Padding and margins
+$line-height: 44px; // Consistent height for buttons, inputs etc.
+
+// Margin
+$margin:0;
+$margin-bottom:20px;
+
+
+// Responsive breakpoints
+$small-break: 480px;
+$big-break: 780px;
+
+
+// Colours
+//
+// Gray Scale
+$white:  #fff;
+$silver: #ddd;
+$grey:   #eaeaea;
+$black:  #333;
+
+
+// Project colors
+$primary-color: #ff3766;
+$secondary-color: #a4a1a1;
+$over-color: #8e8e8e;
+
+// background Colors
+$bg-color:$grey;
+
+// Tags colors
+//
+// Cool
+$aqua:  #7fdbff;
+$blue:  #0074d9;
+$navy:  #001f3f;
+$teal:  #39cccc;
+$green: #2ecc40;
+$olive: #3d9970;
+$lime:  #01ff70;
+// Warm
+$yellow:  #ffdc00;
+$orange:  #ff851b;
+$red:     #ff4136;
+$fuchsia: #f012be;
+$purple:  #b10dc9;
+$maroon:  #85144b;
+
+
+
+
+
+
+$danger-color: $red; // Bad color for errors, validation etc.
+$success-color: $green; // Good color for success etc.
+$info-color: $blue; // Good color for success etc.
+$warning-color: $orange; // Good color for success etc.
+$subtle-color: $grey; // Subtle color for subtle text
