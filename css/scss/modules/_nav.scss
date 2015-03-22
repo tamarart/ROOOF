@@ -2,24 +2,110 @@
 // Navigation
 //**
 
+header{
+  border-bottom: solid 1px #bbbaba;
+  height: 55px;
+
+}
+
 nav{
+
+   li{
+      display: inline-block;
+      padding: 0px 6px ;
+    }
   a{
     font-family: $font-primary;
     color: $black;
     display: inline-block;
+    float:left;
     text-decoration: none;
-    padding: 0px 5px;
+
       &:hover{
         color: $over-color;
-      }
+        }
       }
     a.log{
         color: $primary-color;
+        font-family: $font-primary;
         text-decoration: underline;
             &:hover{
             color: $over-color;
       }
     }
   }
+
+  .nav-hold{
+    display:block;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .nav-logo{
+    border-right: solid 1px #bbbaba;
+    text-decoration: none;
+    padding-right: 20px;
+    float: left;
+       a{
+        color: $black;
+        font-size: 30px;
+        font-family: $font-primary;
+        font-weight: $weight-extra-bold;
+        line-height: 1.8em;
+      }
+    }
+
+.nav-items{
+    float: left;
+    padding-left: 10px;
+  }
+
+.items-log{
+    float: right;
+  }
+
+  .nav-menu{
+    display: none;
+  }
+
+
+@include responsive($big-break) {
+
+    .nav-menu{
+      display: block;
+      float: right;
+      cursor: pointer;
+      color: $black;
+    }
+    #nav{
+      font-size: 30px;
+    }
+    .nav-items{
+      width: 100%;
+      float: left;
+      height: 0px;
+      padding:0px;
+      margin:0px;
+
+    }
+    .nav-items li{
+      width: 100%;
+      display: block;
+      margin: 0;
+    }
+
+  .nav-open{
+    height: auto;
+
+  }
+                }
+  //**
+// Header
+//**
+
+.prueba{
+  background-color: blue;
+}
+
 
 

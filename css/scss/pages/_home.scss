@@ -63,6 +63,57 @@
 
 }
 
+.evento-img li {
+  background-origin: content-box;
+  background-size: 40%;
+  background-position: center;
+  background-repeat: no-repeat;
+  list-style: none;
+  height: 250px;
+text-decoration: none;}
+
+.evento-img li.dos {
+  background: url("../img/cat.jpg"); }
+
+.evento-item a {
+  background: rgba(255, 55, 102, 0);
+  display: block;
+  position: relative;
+  text-align: center;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  height: 100%; }
+
+.evento-item a:hover {
+  background: rgba(255, 55, 102, 0.5); }
+
+.vertical-center {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%); }
+
+.evento-item .vertical-center {
+  padding: 1rem 2rem; }
+
+.evento-item_title,
+.evento-item_tag {
+  color: #FFF;
+  font-size: 2rem;
+  line-height: 2rem;
+  margin-top: 0;
+  text-shadow: 2px 2px 1px #ff3766; }
+
+.evento-item_tag {
+    font-family: $font-primary;
+  font-size: 1rem;
+  line-height: 1rem;
+  text-shadow: none;
+  text-transform: uppercase; }
+
 
 
 
